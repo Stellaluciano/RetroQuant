@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #05070f;
+  color: #80ff9d;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.terminal {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.pixel-panel {
+  border: 3px solid #2eff8b;
+  background: #0b1328;
+  padding: 16px;
+  box-shadow: 0 0 0 3px #102241;
+}
+
+.pixel-input, pre {
+  width: 100%;
+  background: #040912;
+  color: #c9ffcc;
+  border: 2px solid #2eff8b;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.pair-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.pixel-btn {
+  border: 2px solid #46d9ff;
+  background: #101b34;
+  color: #46d9ff;
+  padding: 10px 12px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.pixel-btn.active, .pixel-btn.callout {
+  color: #ffcf3d;
+  border-color: #ffcf3d;
+}
+
+.pixel-range { width: 100%; accent-color: #2eff8b; }
+
+.pixel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.metric-card {
+  border: 2px dashed #ff6ec7;
+  padding: 14px;
+  background: #1a1027;
+}
