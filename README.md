@@ -2,6 +2,10 @@
 
 RetroQuant is a lightweight **LLM-native crypto strategy optimization platform**.
 
+## UI Preview
+
+![RetroQuant strategy lab UI preview](docs/retroquant-ui-preview.svg)
+
 ## Repo Structure
 
 - `frontend/` – Next.js pixel-style dashboard UI.

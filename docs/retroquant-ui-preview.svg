@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="920" viewBox="0 0 1120 920" fill="none">
+  <rect width="1120" height="920" fill="#020617"/>
+  <g fill="#6EF796" font-family="monospace" font-weight="700">
+    <text x="16" y="40" font-size="64">RetroQuant // LLM Crypto</text>
+    <text x="16" y="92" font-size="64">Strategy Lab</text>
+  </g>
+
+  <g stroke="#2CF4D1" stroke-width="4" fill="#051035">
+    <rect x="18" y="116" width="1084" height="220"/>
+    <rect x="18" y="356" width="1084" height="136"/>
+    <rect x="18" y="508" width="1084" height="170"/>
+    <rect x="18" y="748" width="1084" height="156"/>
+  </g>
+
+  <g fill="#6EF796" font-family="monospace" font-weight="700" font-size="62">
+    <text x="36" y="178">Strategy Input</text>
+    <text x="36" y="414">Pair Selector</text>
+    <text x="36" y="570">Time Range Slider</text>
+    <text x="36" y="806">Optimization Panel</text>
+  </g>
+
+  <rect x="38" y="200" width="1044" height="85" fill="#020617" stroke="#00FFC8" stroke-width="3"/>
+  <text x="48" y="245" fill="#CCFFD9" font-family="monospace" font-size="34" font-weight="700">When BTC EMA20 crosses EMA50 and ETH momentum &gt; 0, go long BTC.</text>
+
+  <g font-family="monospace" font-weight="700" font-size="40">
+    <rect x="38" y="407" width="122" height="36" fill="#051035" stroke="#F4D62C" stroke-width="2"/>
+    <text x="50" y="434" fill="#FFD941">BTCUSDT</text>
+    <rect x="170" y="407" width="122" height="36" fill="#051035" stroke="#47D7FF" stroke-width="2"/>
+    <text x="182" y="434" fill="#47D7FF">ETHUSDT</text>
+    <rect x="302" y="407" width="132" height="36" fill="#051035" stroke="#47D7FF" stroke-width="2"/>
+    <text x="314" y="434" fill="#47D7FF">SOLUSDT</text>
+  </g>
+
+  <rect x="40" y="568" width="1038" height="8" rx="4" fill="#595959"/>
+  <rect x="40" y="568" width="690" height="8" rx="4" fill="#37F08A"/>
+  <circle cx="730" cy="572" r="10" fill="#37F08A"/>
+  <text x="40" y="620" fill="#6EF796" font-family="monospace" font-size="44" font-weight="700">123 days</text>
+
+  <rect x="18" y="694" width="1084" height="36" fill="#051035" stroke="#F4D62C" stroke-width="2"/>
+  <text x="486" y="719" fill="#FFD941" font-family="monospace" font-size="40" font-weight="700">Run Backtest</text>
+
+  <rect x="38" y="800" width="260" height="36" fill="#051035" stroke="#47D7FF" stroke-width="2"/>
+  <text x="52" y="825" fill="#47D7FF" font-family="monospace" font-size="36" font-weight="700">Optimize Strategy</text>
+  <text x="38" y="866" fill="#6EF796" font-family="monospace" font-size="46" font-weight="700">Best Sharpe: 4.0293</text>
+</svg>
